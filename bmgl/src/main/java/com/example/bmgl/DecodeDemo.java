@@ -1,6 +1,9 @@
-package com.example.demo;
+package com.example.bmgl;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 public class DecodeDemo {
@@ -8,6 +11,9 @@ public class DecodeDemo {
     //地址信息码解码函数
     Map<String,Object> addressDecode(String addresscode){
         Map<String, Object> address= new HashMap<String, Object>();
+        //String addressstring = decodelocation.decodelocation(addresscode);
+
+
         address.put("地址",addresscode);
         return address;
     }
